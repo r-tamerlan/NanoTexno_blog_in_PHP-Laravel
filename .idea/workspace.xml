@@ -1,27 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="Baslangic">
-      <change afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/mobil_menu.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/preload.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" afterDir="false" />
+    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="FrontEnd Start">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_090258_create_categories_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_105634_create_postinfo_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont78ce.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont78ce.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont78ce.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont78ce.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/libs/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/libs/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar-150px.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/contact.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/favicon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/instagram/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo-mobile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/posts/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/sign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/single.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/libs/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/libs/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/libs/masonry.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/registr.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/users/signin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/nanotexno_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nanotexno_blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +102,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -139,19 +212,27 @@
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
   <component name="ProjectId" id="1gM48pIMB3HHHezSZPsLFt834hq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -167,7 +248,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597910978032</updated>
-      <workItem from="1597910981791" duration="11266000" />
+      <workItem from="1597910981791" duration="24773000" />
+      <workItem from="1597999041516" duration="233000" />
+      <workItem from="1597999303943" duration="14833000" />
     </task>
     <task id="LOCAL-00001" summary="Baslangic">
       <created>1597911837598</created>
@@ -176,48 +259,96 @@
       <option name="project" value="LOCAL" />
       <updated>1597911837598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="FrontEnd Start">
+      <created>1597930840205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597930840205</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Baslangic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Baslangic" />
+    <MESSAGE value="FrontEnd Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="FrontEnd Start" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="243" key="#Composer" timestamp="1597911296204">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="493" y="243" key="#Composer/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597911296204" />
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1597930356031">
+    <state x="273" y="0" key="#Illuminated_Cloud" timestamp="1598012877999">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597930356031" />
-    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1597930356031">
+    <state x="273" y="0" key="#Illuminated_Cloud/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598012877999" />
+    <state x="438" y="188" key="#Notifications" timestamp="1597999050014">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597930356031" />
-    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1597930356031">
+    <state x="438" y="188" key="#Notifications/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999050014" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598008563151">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597930356031" />
-    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1597930356031">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598008563151" />
+    <state x="429" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597999585254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597930356031" />
-    <state x="517" y="287" key="NewPhpFileDialog" timestamp="1597924173966">
+    <state x="429" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999585254" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598007962466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="517" y="287" key="NewPhpFileDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597924173966" />
-    <state x="184" y="9" key="SettingsEditor" timestamp="1597913214218">
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598007962466" />
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom" timestamp="1597998961213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="9" key="SettingsEditor/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597913214218" />
-    <state x="270" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597911875476">
+    <state width="1323" height="171" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597998961213" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center" timestamp="1597998961213">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597911875476" />
+    <state width="1323" height="171" key="GridCell.Tab.0.center/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597998961213" />
+    <state width="1323" height="171" key="GridCell.Tab.0.left" timestamp="1597998961213">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.left/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597998961213" />
+    <state width="1323" height="171" key="GridCell.Tab.0.right" timestamp="1597998961213">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="171" key="GridCell.Tab.0.right/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597998961213" />
+    <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1597998613345">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597998613345" />
+    <state x="531" y="230" key="NewPhpFileDialog" timestamp="1597999592923">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="230" key="NewPhpFileDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999592923" />
+    <state x="173" y="15" key="SettingsEditor" timestamp="1597999379012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="173" y="15" key="SettingsEditor/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999379012" />
+    <state x="270" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597930846158">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="270" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597930846158" />
+    <state x="419" y="27" width="579" height="640" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1598002724599">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="419" y="27" width="579" height="640" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598002724599" />
   </component>
 </project>

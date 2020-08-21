@@ -3,14 +3,17 @@
 use Illuminate\Support\Facades\Route;
 
 
-Route::get('/', function () {
-    return view('homepage');
+Route::view('/contact','contact');
+Route::view('/about','about');
+
+Route::get('/','HomepageController@index')->name('homepage');
+
+
+Route::get('/categories/{slug_categoryName}','CategoriesController@index')->name('categories');
+Route::get('/post/{slug_post}','PostsController@index')->name('posts');
+
+Route::group(['prefix'=>'user'],function (){
+    Route::get('/signin','UsersController@signin_form')->name('users.signin');
+    Route::get('/registration','UsersController@registration_form')->name('users.registration');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
-});
-
-Route::get('/about', function () {
-    return view('about');
-});

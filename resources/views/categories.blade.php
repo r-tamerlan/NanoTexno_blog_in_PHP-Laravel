@@ -1,14 +1,20 @@
 @extends('layouts.master')
-@section('title','NanoTexno Home')
+@section('title','Category Name')
 @section('content')
     <div class="col-md-9 col-md-offset-2">
         <div class="posts">
             <!-- Posts Start-->
+
+            <div class="post-content">
+                <h1 class="text-info ">Azerbaycan </h1>
+            </div>
+
+
             <div class="posts-inner list-layout">
                 <article class="post">
                     <div class="post-media" style="background-image: url(/images/posts/1.jpg)">
                         <a href="single.html">
-                            <img src="images/posts/1.jpg" alt="Post">
+                            <img src="/images/posts/1.jpg" alt="Post">
                         </a>
                     </div>
                     <div class="post-content">

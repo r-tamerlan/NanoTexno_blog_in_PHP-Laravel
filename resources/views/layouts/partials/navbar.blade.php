@@ -5,8 +5,8 @@
                 <!-- Logo -->
                 <div class="logo">
                     <a href="index-2.html">
-                        <img src="images/logo-light.png" alt="Logo" class="logo-light">
-                        <img src="images/logo.png" alt="Logo">
+                        <img src="/images/logo-light.png" alt="Logo" class="logo-light">
+                        <img src="/images/logo.png" alt="Logo">
                     </a>
                 </div>
                 <!-- End Logo -->
@@ -16,37 +16,40 @@
                     <nav>
                         <ul class="menu-list text-info">
                             <li class="menu-item-has-children  ">
-                                <a href="index-2.html">Home</a>
+                                <a href="{{ route('homepage') }}">Home</a>
 
                             </li>
                             <li class="menu-item-has-children">
-                                <a href="single.html">Categories</a>
-                                <ul class="sub-menu">
+                                <a  style="cursor: pointer">Profil</a>
+                                <ul class="sub-menu " style="border: 1px solid  #1b4b72; border-radius: 3px">
+
                                     <li>
-                                        <a href="single.html">Image</a>
+                                        <a href="single.html">Sign In</a>
                                     </li>
                                     <li>
-                                        <a href="single.html">Gallery</a>
+                                        <a href="single.html">Sign Up</a>
                                     </li>
-                                    <li>
-                                        <a href="single.html">Slideshow</a>
-                                    </li>
-                                    <li>
-                                        <a href="single.html">Youtube Video</a>
-                                    </li>
-                                    <li>
-                                        <a href="single.html">Vimeo Video</a>
-                                    </li>
+
                                 </ul>
                             </li>
+
+                            <li class="menu-item-has-children">
+                                <a  style="cursor: pointer">Categories</a>
+                                <ul class="sub-menu " style="border: 1px solid  #1b4b72; border-radius: 3px">
+                                    {{-- @foreach($categories as $category)
+                                     <li>
+                                         <a href="{{ route('categories',$category->category_slug) }}">{{$category->category_name}}</a>
+                                     </li>
+                                     @endforeach--}}
+
+                                </ul>
+                            </li>
+
                             <li>
-                                <a href="#">Profil</a>
+                                <a href="{{ route('about') }}">About</a>
                             </li>
                             <li>
-                                <a href="about.html">About</a>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="{{ route('contact') }}">Contact</a>
                             </li>
 
                         </ul>
