@@ -9,7 +9,7 @@ class HomepageController extends Controller
 {
     public function index()
     {
-        //$categories = Categories::all();
-        return view( 'homepage' );
+
+        return view( 'homepage');
     }
 }

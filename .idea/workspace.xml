@@ -19,82 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="FrontEnd Start">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_090258_create_categories_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_105634_create_postinfo_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont78ce.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont78ce.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont78ce.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfont78ce.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular-3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular-4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular-5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regular.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/glyphicons-halflings-regulard41d.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/libs/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/libs/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/about.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avatar-150px.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/avatar.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/contact.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/favicon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/instagram/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo-mobile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/posts/9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/sign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/single.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/libs/imagesloaded.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/libs/jquery-1.12.4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/libs/masonry.pkgd.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/registr.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/signin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nanotexno_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nanotexno_blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="Bakcend Start with Database">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="sqlite&#10;mysql" />
+    <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -250,7 +178,8 @@
       <updated>1597910978032</updated>
       <workItem from="1597910981791" duration="24773000" />
       <workItem from="1597999041516" duration="233000" />
-      <workItem from="1597999303943" duration="14833000" />
+      <workItem from="1597999303943" duration="15861000" />
+      <workItem from="1598032174405" duration="2549000" />
     </task>
     <task id="LOCAL-00001" summary="Baslangic">
       <created>1597911837598</created>
@@ -266,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597930840205</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bakcend Start with Database">
+      <created>1598022352689</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598022352689</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,12 +218,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Baslangic" />
     <MESSAGE value="FrontEnd Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="FrontEnd Start" />
+    <MESSAGE value="Bakcend Start with Database" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bakcend Start with Database" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="243" key="#Composer" timestamp="1597911296204">
@@ -302,10 +240,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="188" key="#Notifications/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999050014" />
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598008563151">
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598022011557">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598008563151" />
+    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598022011557" />
     <state x="429" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597999585254">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -342,10 +280,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="173" y="15" key="SettingsEditor/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999379012" />
-    <state x="270" y="100" key="Vcs.Push.Dialog.v2" timestamp="1597930846158">
+    <state x="270" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598022362577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597930846158" />
+    <state x="270" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598022362577" />
     <state x="419" y="27" width="579" height="640" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1598002724599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

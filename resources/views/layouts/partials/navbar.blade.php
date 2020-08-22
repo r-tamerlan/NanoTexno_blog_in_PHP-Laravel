@@ -21,13 +21,13 @@
                             </li>
                             <li class="menu-item-has-children">
                                 <a  style="cursor: pointer">Profil</a>
-                                <ul class="sub-menu " style="border: 1px solid  #1b4b72; border-radius: 3px">
+                                <ul class="sub-menu " >
 
                                     <li>
-                                        <a href="single.html">Sign In</a>
+                                        <a href="{{ route('users.signin') }}">Sign In</a>
                                     </li>
                                     <li>
-                                        <a href="single.html">Sign Up</a>
+                                        <a href="{{ route('users.registration') }}">Sign Up</a>
                                     </li>
 
                                 </ul>
@@ -35,12 +35,15 @@
 
                             <li class="menu-item-has-children">
                                 <a  style="cursor: pointer">Categories</a>
-                                <ul class="sub-menu " style="border: 1px solid  #1b4b72; border-radius: 3px">
-                                    {{-- @foreach($categories as $category)
-                                     <li>
-                                         <a href="{{ route('categories',$category->category_slug) }}">{{$category->category_name}}</a>
-                                     </li>
-                                     @endforeach--}}
+                                <ul class="sub-menu" >
+                                   @php
+                                    $categories=\App\Models\Categories::all();
+                                   @endphp
+                                    @foreach($categories as $category)
+                                    <li>
+                                        <a href="{{ route('categories',$category->category_slug) }}">{{$category->category_name}}</a>
+                                    </li>
+                                    @endforeach
 
                                 </ul>
                             </li>
