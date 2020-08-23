@@ -7,8 +7,8 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Sign Up</div>
                     <div class="panel-body">
-                        <form class="form-horizontal" role="form" method="POST" action="#">
-
+                        <form class="form-horizontal" role="form" method="POST" action="{{ route('users.registration') }}">
+                        @csrf
                             <div class="form-group ">
                                 <label for="name" class="col-md-4 control-label">Name Surname</label>
                                 <div class="col-md-6">

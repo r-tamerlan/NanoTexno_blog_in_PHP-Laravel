@@ -7,24 +7,25 @@
                 <!-- Post -->
                 <article class="post">
                     <div class="post-header">
-                        <h2 class="title"><span>Creativity is more than a song and dance act</span></h2>
+                        <h2 class="title"><span>{{ $thisPost->post_title }}</span></h2>
 
                         <!-- Post Details -->
                         <div class="post-details">
                             <div class="post-cat">
-                                <a href="#">Travel</a>
+                                <a href="#">{{$thisCategory->category_name}}</a>
                             </div>
-                            <a href="#" class="post-date"><span>Aug 06, 2018</span></a>
+                            <a href="#" class="post-date"><span>{{ $thisPost->created_at }}</span></a>
                             <div class="post-details-child">
-                                <a href="#" class="post-views">15 views</a>
-                                <a href="#" class="post-comments">03 Comments</a>
+                                <a href="#" class="post-views">{{ $thisInfo->view }} views</a>
+                                <a href="#" class="post-comments">{{ $thisInfo->comment }} Comments</a>
                                 <div class="post-share-icon">
                                     <span>SHARE</span>
                                     <ul>
-                                        <li><a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
-                                        <li><a href="#"><i class="fa fa-google"></i><span>Google Plus</span></a></li>
-                                        <li><a href="#"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
-
+                                        <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
+                                        <li><a href="https://myaccount.google.com/"><i class="fa fa-google"></i><span>Google Plus</span></a></li>
+                                        <li><a href="https://twitter.com"><i class="fa fa-twitter"></i><span>Twitter</span></a></li>
+                                        <li><a href="https://www.behance.net/"><i class="fa fa-behance"></i><span>Behance</span></a></li>
+                                        <li><a href="https://dribbble.com/"><i class="fa fa-dribbble"></i><span>Dribbble</span></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -37,18 +38,11 @@
                     <div class="post-content">
 
                         <!-- The Content -->
-                          content.........
+                    {{ $thisPost->post_content }}
                         <!-- End The Content -->
 
-                        <div class="post-tags">
-                            <strong>Tags: </strong>
-                            <ul>
-                                <li><a href="#">Art</a></li>
-
-                            </ul>
-                        </div>
                         <div class="post-author">
-                            Writed by  <a href="#">Kendy</a>
+                            Writed by  <a >R.Tamerlan</a>
                         </div>
                     </div>
 
@@ -63,7 +57,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="post">
-                            <div class="post-media" style="background-image: url(images/posts/4.jpg)">
+                            <div class="post-media" style="background-image: url(/images/posts/4.jpg)">
                                 <a href="single.html">
                                     <img src="images/posts/4.jpg" alt="Image">
                                 </a>
@@ -80,7 +74,7 @@
                     </div>
                     <div class="col-sm-6">
                         <div class="post">
-                            <div class="post-media" style="background-image: url(images/posts/2.jpg)">
+                            <div class="post-media" style="background-image: url(/images/posts/2.jpg)">
                                 <a href="single.html">
                                     <img src="images/posts/2.jpg" alt="Image">
                                 </a>
@@ -103,25 +97,24 @@
             <div class="author-box">
                 <div class="header-top clearfix">
                     <div class="avatar-author">
-                        <img src="images/avatar.jpg" alt="Avatar">
+                        <img src="/images/avatar.jpg" alt="Avatar">
                     </div>
                     <div class="author-name">
                         <h3 class="title">
-                            <a href="#">Kendy</a>
+                            <a >R.Tamerlan</a>
                         </h3>
                         <div class="author-socials">
-                            <a href="#" class="fa fa-behance" title="Behance"></a>
-                            <a href="#" class="fa fa-dribbble" title="Dribbble"></a>
-                            <a href="#" class="fa fa-facebook" title="Facebook"></a>
-                            <a href="#" class="fa fa-google" title="Google Plus"></a>
-                            <a href="#" class="fa fa-twitter" title="Twitter"></a>
+
+                            <a href="https://www.facebook.com/rustemov.tamerlan" class="fa fa-facebook" title="Facebook"></a>
+                            <a href="https://www.instagram.com/tamerlan_srs/" class="fa fa-instagram" title="instagram"></a>
+
                         </div>
                     </div>
 
                 </div>
                 <div class="author-description">
-                    Kendy loves beautiful content and doesn't like to give in easily. I run responsive Web design workshops, online workshops and loves solving complex UX, front-end and performance problems in large companies.
-                    <a href="#">Get in touch.</a>
+                    R.Tamerlanloves beautiful content and doesn't like to give in easily. I run responsive Web design workshops, online workshops and loves solving complex UX, front-end and performance problems in large companies.
+                    <a href="https://www.instagram.com/tamerlan_srs/">Get in touch.</a>
                 </div>
             </div>
             <!-- End Author Box -->

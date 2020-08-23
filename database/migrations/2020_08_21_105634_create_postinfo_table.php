@@ -18,7 +18,8 @@ class CreatePostinfoTable extends Migration
             $table->integer('view')->default('0');
             $table->integer('like')->default('0');
             $table->integer('comment')->default('0');
-            $table->timestamps();
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
             $table->softDeletes()->nullable();
         });
     }

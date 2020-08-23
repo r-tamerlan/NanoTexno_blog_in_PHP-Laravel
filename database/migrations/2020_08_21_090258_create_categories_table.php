@@ -18,7 +18,9 @@ class CreateCategoriesTable extends Migration
             $table->id();
             $table->string('category_name',20);
             $table->string('category_slug',40)->unique();
-            $table->timestamps();
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
+
             $table->softDeletes()->nullable();
         });
     }

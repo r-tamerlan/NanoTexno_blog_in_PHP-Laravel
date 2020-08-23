@@ -20,17 +20,25 @@
 
                             </li>
                             <li class="menu-item-has-children">
-                                <a  style="cursor: pointer">Profil</a>
+                            @guest
+                                <a  style="cursor: pointer">Login</a>
                                 <ul class="sub-menu " >
-
                                     <li>
                                         <a href="{{ route('users.signin') }}">Sign In</a>
                                     </li>
                                     <li>
                                         <a href="{{ route('users.registration') }}">Sign Up</a>
                                     </li>
-
                                 </ul>
+                            @endguest
+                            @auth
+                                    <a  style="cursor: pointer">User Name</a>
+                                    <ul class="sub-menu " >
+                                        <li>
+                                            <a class="text-danger" href="#">Exit profil</a>
+                                        </li>
+                                    </ul>
+                            @endauth
                             </li>
 
                             <li class="menu-item-has-children">
@@ -38,6 +46,7 @@
                                 <ul class="sub-menu" >
                                    @php
                                     $categories=\App\Models\Categories::all();
+                                     $MAC = strtok(exec('getmac'), ' ');
                                    @endphp
                                     @foreach($categories as $category)
                                     <li>
@@ -67,7 +76,9 @@
                     <!-- Personel Area Start -->
                     <div class="copyright ">
                         <p class="text-info">
-                            XXX - xxx - XXX
+
+                            You MAC: {{ $MAC }}<br>
+                           {{date('Y-m-d') }}
                         </p>
                     </div>
                     <!-- Personel Area End -->

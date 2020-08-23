@@ -19,10 +19,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="Bakcend Start with Database">
+    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="Bakcend Start with Database 2">
+      <change afterPath="$PROJECT_DIR$/app/Models/Postinfo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_070759_create_posts_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_071023_create_admin_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/seeds/PostsTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_21_090258_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_090258_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_21_105634_create_postinfo_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_105634_create_postinfo_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/registr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/registr.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,6 +180,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Laravel\nanotexno_blog\app\Models" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
@@ -179,7 +202,8 @@
       <workItem from="1597910981791" duration="24773000" />
       <workItem from="1597999041516" duration="233000" />
       <workItem from="1597999303943" duration="15861000" />
-      <workItem from="1598032174405" duration="2549000" />
+      <workItem from="1598032174405" duration="14691000" />
+      <workItem from="1598097167361" duration="12696000" />
     </task>
     <task id="LOCAL-00001" summary="Baslangic">
       <created>1597911837598</created>
@@ -202,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598022352689</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Bakcend Start with Database 2">
+      <created>1598078762578</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598078762578</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,7 +256,8 @@
     <MESSAGE value="Baslangic" />
     <MESSAGE value="FrontEnd Start" />
     <MESSAGE value="Bakcend Start with Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bakcend Start with Database" />
+    <MESSAGE value="Bakcend Start with Database 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bakcend Start with Database 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="243" key="#Composer" timestamp="1597911296204">
@@ -248,6 +280,15 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="429" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999585254" />
+    <state x="1717" y="63" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598100809511">
+      <screen x="1366" y="-82" width="1280" height="984" />
+    </state>
+    <state x="1717" y="63" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598100809511" />
+    <state x="1753" y="79" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1598104553861">
+      <screen x="1366" y="-82" width="1280" height="984" />
+    </state>
+    <state x="413" y="119" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598082340434" />
+    <state x="1753" y="79" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598104553861" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1598007962466">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -272,6 +313,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597998613345" />
+    <state x="1586" y="153" key="IDE.errors.dialog" timestamp="1598104812412">
+      <screen x="1366" y="-82" width="1280" height="984" />
+    </state>
+    <state x="1586" y="153" key="IDE.errors.dialog/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598104812412" />
     <state x="531" y="230" key="NewPhpFileDialog" timestamp="1597999592923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -280,13 +325,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="173" y="15" key="SettingsEditor/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999379012" />
-    <state x="270" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598022362577">
+    <state x="270" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598078769488">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598022362577" />
+    <state x="270" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598078769488" />
+    <state x="1802" y="220" width="408" height="376" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1598090996566">
+      <screen x="1366" y="-82" width="1280" height="984" />
+    </state>
+    <state x="1802" y="220" width="408" height="376" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598090996566" />
     <state x="419" y="27" width="579" height="640" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1598002724599">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="419" y="27" width="579" height="640" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598002724599" />
+    <state x="1662" y="185" key="run.anything.popup" timestamp="1598099943942">
+      <screen x="1366" y="-82" width="1280" height="984" />
+    </state>
+    <state x="1662" y="185" key="run.anything.popup/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598099943942" />
   </component>
 </project>
