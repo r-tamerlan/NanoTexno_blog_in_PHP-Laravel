@@ -21,7 +21,8 @@ class CreateUsersTable extends Migration
             $table->string('activation_key',60)->nullable();
             $table->string('password');
             $table->boolean('active')->default(0);
-            $table->rememberToken()->default(0);
+            $table->rememberToken();
+
 
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();

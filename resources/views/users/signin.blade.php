@@ -7,12 +7,13 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Sign In</div>
                     <div class="panel-body">
-                        <form class="form-horizontal" role="form" method="POST" action="#">
-
+                        @include('layouts.partials.errors')
+                        <form class="form-horizontal" role="form" method="POST" action="{{route('users.signin')}}">
+                            @csrf
                             <div class="form-group">
                                 <label for="email" class="col-md-4 control-label">Email</label>
                                 <div class="col-md-6">
-                                    <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+                                    <input id="email" type="email" class="form-control" name="email" value="{{old('email')}}" required autofocus>
                                 </div>
                             </div>
 
@@ -27,7 +28,7 @@
                                 <div class="col-md-6 col-md-offset-4">
                                     <div class="checkbox">
                                         <label>
-                                            <input type="checkbox" name="rememberme" checked> Remember me
+                                            <input type="checkbox" name="rememberMe" checked> Remember me
                                         </label>
                                     </div>
                                 </div>

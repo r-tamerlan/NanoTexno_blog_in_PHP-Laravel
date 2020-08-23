@@ -21,7 +21,7 @@
                             </li>
                             <li class="menu-item-has-children">
                             @guest
-                                <a  style="cursor: pointer">Login</a>
+                                <a  style="cursor: pointer">Account</a>
                                 <ul class="sub-menu " >
                                     <li>
                                         <a href="{{ route('users.signin') }}">Sign In</a>
@@ -32,10 +32,14 @@
                                 </ul>
                             @endguest
                             @auth
-                                    <a  style="cursor: pointer">User Name</a>
+                                    <a  style="cursor: pointer">{{Auth::user()->name}}</a>
                                     <ul class="sub-menu " >
                                         <li>
-                                            <a class="text-danger" href="#">Exit profil</a>
+                                            <a class="text-danger" href="#" onclick="event.preventDefault();
+                                            document.getElementById('logout-from').submit()">Exit account</a>
+                                            <form id="logout-from" action="{{route('user.exitAccount')}}" method="post" style="display: none">
+                                                @csrf
+                                            </form>
                                         </li>
                                     </ul>
                             @endauth

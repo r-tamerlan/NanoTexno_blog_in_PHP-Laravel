@@ -1,6 +1,7 @@
 @extends('layouts.master')
 @section('title','NanoTexno Home')
 @section('content')
+    @include('layouts.partials.alert')
     <div class="col-md-9 col-md-offset-2">
         <div class="posts">
             <!-- Posts Start-->

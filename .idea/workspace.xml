@@ -19,28 +19,248 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="Bakcend Start with Database 2">
-      <change afterPath="$PROJECT_DIR$/app/Models/Postinfo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Posts.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_070759_create_posts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_071023_create_admin_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/PostsTableSeeder.php" afterDir="false" />
+    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="23.08.2020">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Mail/UserSignUpMail.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/apps/contacts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/apps/invoice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/apps/mailbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/apps/mailing-chat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/apps/notes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/apps/scrumboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/apps/todolist.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/authentication/form-1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/authentication/form-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/cards/card.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/custom-carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/custom-countdown.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/custom-counter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/custom-list-group.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/custom-media_object.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/custom-modal.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/custom-sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/tabs-accordian/custom-accordions.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/tabs-accordian/custom-tabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/components/timeline/custom-timeline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/dashboard/dash_1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/dashboard/dash_2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/alert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/avatar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/color_library.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/custom-pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/custom-tree_view.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/custom-typography.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/infobox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/miscellaneous.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/popover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/elements/tooltip.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/forms/custom-clipboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/forms/switches.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/forms/theme-checkbox-radio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/coming-soon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/contact_us.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/error/style-400.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/error/style-500.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/error/style-503.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/error/style-maintanence.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/faq/faq.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/faq/faq2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/helpdesk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/pages/privacy/privacy.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/plugins.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/scrollspyNav.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/structure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/tables/table-basic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/users/account-setting.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/users/user-profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/css/widgets/modules-widgets.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/img/f.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/apps/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/apps/custom-mailbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/apps/invoice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/apps/mailbox-chat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/apps/notes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/apps/scrumboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/apps/todoList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/authentication/form-1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/authentication/form-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/clipboard/clipboard.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/components/custom-countdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/components/custom-counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/components/notification/custom-snackbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/components/session-timeout/bootstrap-session-timeout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/components/session-timeout/custom-bootstrap_session_timeout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/components/ui-accordions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/dashboard/dash_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/dashboard/dash_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/elements/custom-search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/elements/popovers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/elements/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/forms/bootstrap_validation/bs_validation_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/forms/custom-clipboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/ie11fix/fn.fix-padStart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/libs/jquery-3.1.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/pages/coming-soon/coming-soon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/pages/faq/faq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/pages/faq/faq2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/pages/helpdesk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/scrollspyNav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/users/account-settings.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/assets/js/widgets/modules-widgets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/bootstrap/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/apex/apexcharts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/apex/apexcharts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/apex/custom-apexcharts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/autocomplete/autocomplete.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/autocomplete/countries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/autocomplete/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/autocomplete/jquery.autocomplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/autocomplete/jquery.mockjax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/blockui/custom-blockui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/blockui/jquery.blockUI.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/bootstrap-maxlength/bootstrap-maxlength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/bootstrap-maxlength/custom-bs-maxlength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/bootstrap-range-Slider/bootstrap-rangeSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/bootstrap-range-Slider/bootstrap-slider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/bootstrap-select/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/bootstrap-select/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/bootstrap-touchspin/custom-bootstrap-touchspin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/countdown/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/counter/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/drag-and-drop/dragula/custom-dragula.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/drag-and-drop/dragula/dragula.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/drag-and-drop/dragula/dragula.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/drag-and-drop/dragula/example.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/dropify/dropify.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/dropify/dropify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/dropify/fonts/dropify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/dropify/fonts/dropify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/dropify/fonts/dropify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/dropify/fonts/dropify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/editors/markdown/custom-markdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/editors/markdown/simplemde.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/editors/markdown/simplemde.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/editors/quill/custom-quill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/editors/quill/quill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/editors/quill/quill.snow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/file-upload/file-upload-with-preview.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/file-upload/file-upload-with-preview.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/flatpickr/custom-flatpickr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/flatpickr/custom-flatpickr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/flatpickr/flatpickr.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/flatpickr/flatpickr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/font-icons/feather/feather.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/font-icons/fontawesome/css/fontawesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/font-icons/fontawesome/css/regular.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/font-icons/fontawesome/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/font-icons/fontawesome/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/font-icons/fontawesome/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/font-icons/fontawesome/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/font-icons/fontawesome/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/font-icons/fontawesome/webfonts/fa-regular-400d41d.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/fullcalendar/custom-fullcalendar.advance.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/fullcalendar/custom-fullcalendar.advance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/fullcalendar/fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/fullcalendar/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/highlight/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/highlight/styles/monokai-sublime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/input-mask/input-mask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/input-mask/jquery.inputmask.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-step/custom-jquery.steps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-step/jquery.steps.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-step/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-ui/images/ui-icons_444444_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-ui/images/ui-icons_555555_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-ui/images/ui-icons_777620_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-ui/images/ui-icons_777777_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-ui/images/ui-icons_cc0000_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-ui/images/ui-icons_ffffff_256x240.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-ui/jquery-ui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jquery-ui/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/africa/jquery-jvectormap-africa-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/asia/jquery-jvectormap-asia-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/continents/jquery-jvectormap-continents-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/europe/jquery-jvectormap-europe-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/jquery-jvectormap-2.0.3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/jquery-jvectormap-2.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/jvector_script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/north_america/jquery-jvectormap-north-america-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/oceania/jquery-jvectormap-oceanina-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/south-america/jquery-jvectormap-south-america-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/jvector/worldmap_script/jquery-jvectormap-world-mill-en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/lightbox/custom-photswipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/lightbox/custom-photswipe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/lightbox/default-skin/default-skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/lightbox/default-skin/default-skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/lightbox/default-skin/default-skin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/lightbox/default-skin/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/lightbox/photoswipe-ui-default.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/lightbox/photoswipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/lightbox/photoswipe.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/loaders/custom-loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/noUiSlider/custom-nouiSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/noUiSlider/custom-nouiSlider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/noUiSlider/nouislider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/noUiSlider/nouislider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/notification/snackbar/snackbar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/notification/snackbar/snackbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/pricing-table/css/component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/select2/custom-select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/sweetalerts/custom-sweetalert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/sweetalerts/promise-polyfill.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/sweetalerts/sweetalert.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/sweetalerts/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/sweetalerts/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/button-ext/buttons.html5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/button-ext/buttons.print.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/button-ext/dataTables.buttons.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/button-ext/jszip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/custom_dt_custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/custom_dt_html5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/custom_dt_miscellaneous.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/custom_dt_multiple_tables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/custom_miscellaneous.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/datatables-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/datatables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/datatables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/dt-global_style-dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/table/datatable/dt-global_style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/tagInput/tags-input.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/tagInput/tags-input.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/plugins/treeview/custom-jstree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/alert.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/partials/errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/mails/userregistr.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoriesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Categories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_21_090258_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_090258_create_categories_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_21_105634_create_postinfo_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_21_105634_create_postinfo_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/users/registr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/registr.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/signin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/signin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,6 +402,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Laravel\nanotexno_blog\public\admin_app-assetc" />
       <recent name="C:\Laravel\nanotexno_blog\app\Models" />
     </key>
   </component>
@@ -204,6 +425,7 @@
       <workItem from="1597999303943" duration="15861000" />
       <workItem from="1598032174405" duration="14691000" />
       <workItem from="1598097167361" duration="12696000" />
+      <workItem from="1598162864902" duration="28865000" />
     </task>
     <task id="LOCAL-00001" summary="Baslangic">
       <created>1597911837598</created>
@@ -233,7 +455,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598078762578</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="23.08.2020">
+      <created>1598162932383</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598162932383</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +486,8 @@
     <MESSAGE value="FrontEnd Start" />
     <MESSAGE value="Bakcend Start with Database" />
     <MESSAGE value="Bakcend Start with Database 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bakcend Start with Database 2" />
+    <MESSAGE value="23.08.2020" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.08.2020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="243" key="#Composer" timestamp="1597911296204">
@@ -317,18 +547,20 @@
       <screen x="1366" y="-82" width="1280" height="984" />
     </state>
     <state x="1586" y="153" key="IDE.errors.dialog/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598104812412" />
-    <state x="531" y="230" key="NewPhpFileDialog" timestamp="1597999592923">
+    <state x="531" y="230" key="NewPhpFileDialog" timestamp="1598209191634">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="531" y="230" key="NewPhpFileDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999592923" />
+    <state x="531" y="230" key="NewPhpFileDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598209191634" />
+    <state x="1864" y="229" key="NewPhpFileDialog/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598170230494" />
     <state x="173" y="15" key="SettingsEditor" timestamp="1597999379012">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="173" y="15" key="SettingsEditor/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999379012" />
-    <state x="270" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598078769488">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1619" y="53" key="Vcs.Push.Dialog.v2" timestamp="1598162964969">
+      <screen x="1366" y="-82" width="1280" height="984" />
     </state>
     <state x="270" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598078769488" />
+    <state x="1619" y="53" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598162964969" />
     <state x="1802" y="220" width="408" height="376" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1598090996566">
       <screen x="1366" y="-82" width="1280" height="984" />
     </state>
