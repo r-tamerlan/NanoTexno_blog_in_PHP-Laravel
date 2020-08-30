@@ -4,7 +4,7 @@
             <div class="table-cell">
                 <!-- Logo -->
                 <div class="logo">
-                    <a href="index-2.html">
+                    <a href="{{ route('homepage') }}">
                         <img src="/images/logo-light.png" alt="Logo" class="logo-light">
                         <img src="/images/logo.png" alt="Logo">
                     </a>
@@ -110,8 +110,9 @@
 
 
                 <div class="box-search">
-                    <form role="search" method="get" action="#">
-                        <input type="text" placeholder="Search ..." name="s" />
+                    <form role="search" action="{{ route('search') }}"  method="post" >
+                        @csrf
+                        <input type="text"  placeholder="Search ..." name="search" />
                     </form>
                 </div>
 

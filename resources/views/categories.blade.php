@@ -14,9 +14,9 @@
                 @foreach($thisCategoryPosts as $post)
 
                 <article class="post">
-                    <div class="post-media" style="background-image: url(/images/posts/1.jpg)">
+                    <div class="post-media" style="background-image: url({{asset('storage/'.$post->post_images)}}); width: 240px; height: 200px">
                         <a href="{{ route('post',$post->post_slug) }}">
-                            <img src="/images/posts/1.jpg" alt="Post">
+                            <img src="{{asset('storage/'.$post->post_images)}}" alt="Post">
                         </a>
                     </div>
                     <div class="post-content">
@@ -32,8 +32,8 @@
                                 </div>
                                 <a href="{{ route('post',$post->post_slug) }}" class="post-date"><span>{{$post->created_at}}</span></a>
                                 <div class="post-details-child">
-                                    <a href="{{ route('post',$post->post_slug) }}" class="post-views">15</a>
-                                    <a href="{{ route('post',$post->post_slug) }}" class="post-comments">03</a>
+                                    <a href="{{ route('post',$post->post_slug) }}" class="post-views">{{ $post->postInfo->view  }}</a>
+                                    <a href="{{ route('post',$post->post_slug) }}" class="post-comments">{{ $post->postInfo->comment  }}</a>
                                     <div class="post-share-icon">
                                         <ul>
                                             <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
@@ -49,7 +49,7 @@
                         </div>
                         <!-- The Content -->
                         <div class="the-excerpt" >
-                            <p>{{$post->post_content}}</p>
+                            <p>{!!  $post->post_content !!}</p>
                         </div>
                         <!-- End The Content -->
                         <div class="read-more">

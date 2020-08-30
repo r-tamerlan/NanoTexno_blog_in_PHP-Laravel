@@ -4,29 +4,31 @@
     @include('layouts.partials.alert')
     <div class="col-md-9 col-md-offset-2">
         <div class="posts">
+
             <!-- Posts Start-->
+            @foreach($allPosts as $homePost)
             <div class="posts-inner list-layout">
                 <article class="post">
-                    <div class="post-media" style="background-image: url(/images/posts/1.jpg)">
-                        <a href="single.html">
-                            <img src="images/posts/1.jpg" alt="Post">
+                    <div class="post-media" style="background-image: url({{asset('storage/'.$homePost->post_images)}}); width: 240px; height: 200px">
+                        <a href="{{ route('post',$homePost->post_slug) }}">
+                            <img src="{{asset('storage/'.$homePost->post_images)}}" alt="Post">
                         </a>
                     </div>
                     <div class="post-content">
                         <div class="post-header">
                             <h2 class="title">
-                                <a href="single.html">Creativity is more than a song and dance act</a>
+                                <a href="{{ route('post',$homePost->post_slug) }}">{{$homePost->post_title}}</a>
                             </h2>
 
                             <!-- Post Details -->
                             <div class="post-details">
                                 <div class="post-cat">
-                                    <a href="#">Travel</a>
+                                    <a href="{{ route('post',$homePost->post_slug) }}">{{ $homePost->category->category_name }}</a>
                                 </div>
-                                <a href="#" class="post-date"><span>Aug 06, 2018</span></a>
+                                <a href="{{ route('post',$homePost->post_slug) }}" class="post-date"><span>{{$homePost->created_at}}</span></a>
                                 <div class="post-details-child">
-                                    <a href="#" class="post-views">15</a>
-                                    <a href="#" class="post-comments">03</a>
+                                    <a href="{{ route('post',$homePost->post_slug) }}" class="post-views">{{ $homePost->postInfo->view }}</a>
+                                    <a href="{{ route('post',$homePost->post_slug) }}" class="post-comments">{{ $homePost->postInfo->comment }}</a>
                                     <div class="post-share-icon">
                                         <ul>
                                             <li><a href="#"><i class="fa fa-facebook"></i><span>Facebook</span></a></li>
@@ -42,18 +44,20 @@
                         </div>
                         <!-- The Content -->
                         <div class="the-excerpt">
-                            <p>Morbi leo enim, laoreet eget urna id, ullamcorper condimentum urna. Curabitur accumsan sem et nisi ultricies porttitor...
+                            <p>{!! $homePost->post_content !!}
                             </p>
                         </div>
                         <!-- End The Content -->
                         <div class="read-more">
-                            <a href="single.html">Continue Reading ...</a>
+                            <a href="{{ route('post',$homePost->post_slug) }}">Continue Reading ...</a>
                         </div>
                     </div>
 
                 </article>
             </div>
+            @endforeach
             <!-- Posts End-->
+
             <!-- Pagination -->
             <div class="pagination-wrap ">
 

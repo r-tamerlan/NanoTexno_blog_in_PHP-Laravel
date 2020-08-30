@@ -32,13 +32,13 @@
                         </div>
                         <!-- End Post Details -->
                     </div>
-                    <div class="post-media">
-                        <img src="/images/single.jpg" alt="Post">
+                    <div class="post-media mb-3">
+                        <img src="{{ asset('storage/'.$thisPost->post_images) }} " style="height: 400px; width: 700px;" alt="Post">
                     </div>
-                    <div class="post-content">
+                    <div class="post-content ">
 
                         <!-- The Content -->
-                    {{ $thisPost->post_content }}
+                    {!!  $thisPost->post_content !!}
                         <!-- End The Content -->
 
                         <div class="post-author">

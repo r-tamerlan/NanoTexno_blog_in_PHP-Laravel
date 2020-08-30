@@ -37269,6 +37269,7 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 setTimeout(function () {
   $('.alert').slideUp(500);
 }, 3000);
+var firstUpload = new FileUploadWithPreview('myFirstImage');
 
 /***/ }),
 

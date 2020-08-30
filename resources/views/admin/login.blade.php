@@ -27,8 +27,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(
 
                     <h1 class="">Sign In</h1>
                     <p class="">Log in to your account to continue.</p>
-
-                    <form class="text-left">
+                    @include('layouts.partials.errors')
+                    <form class="text-left" action="{{ route('admin.login') }}" method="post">
+                        @csrf
                         <div class="form">
 
                             <div id="username-field" class="field-wrapper input">
