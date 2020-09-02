@@ -65,6 +65,12 @@
                     'Your file has been deleted.',
                     'success'
                 )
+                {{--$.ajax({--}}
+                {{--    url:{{ route('admin.categories.edit'}},--}}
+                {{--    type: 'get',--}}
+                {{--    data: {{$categoryList->id}}--}}
+
+                {{--})--}}
             }
         })
     })

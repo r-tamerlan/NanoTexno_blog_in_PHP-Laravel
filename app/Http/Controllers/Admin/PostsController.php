@@ -85,8 +85,8 @@ class PostsController extends Controller
             $entry = Posts::where('id', $id)->firstOrFail();
             $entry->update($data);
 
-            // $entryinfo=Postinfo::where('id',$entry->post_info_id);
-            // $entryinfo->update($dataInfo);
+            $entryinfo=Postinfo::where('id',$entry->post_info_id);
+            $entryinfo->update($dataInfo);
         } else {
 
             $pf=Postinfo::create($dataInfo);

@@ -118,11 +118,12 @@
                                             <td>{{$categoryList->category_slug}}</td>
                                             <td>{{$categoryList->created_at}}</td>
                                             <td>
-                                                <a style="width: 80px" href="{{ route('admin.categories.edit',$categoryList->id) }}"
-                                                   class="btn btn-dark btn-sm">Edit</a>
-                                                <button class="mr-2 btn btn-primary  warning confirm">Confirm</button>
+
+                                                <a id="editing" style="width: 80px" href="{{ route('admin.categories.edit',$categoryList->id) }}"
+                                                   class="btn btn-dark btn-sm " >Edit</a>
+
                                                 <a href="{{ route('admin.categories.delete',$categoryList->id) }}"
-                                                   class="btn btn-danger btn-sm warning confirm"
+                                                   class="btn btn-danger btn-sm "
                                                    onclick="return confirm('Are you sure?')">Delete</a>
                                             </td>
                                         </tr>

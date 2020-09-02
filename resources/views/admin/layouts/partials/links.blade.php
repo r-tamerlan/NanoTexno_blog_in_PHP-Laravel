@@ -33,8 +33,8 @@
 <link href="{{ asset('admin_app-assetc/assets/css/scrollspyNav.css') }}" rel="stylesheet" type="text/css">
 <link href="{{ asset('admin_app-assetc/plugins/file-upload/file-upload-with-preview.min.css') }}" rel="stylesheet" type="text/css">
 
-<link href="{{ asset('admin_app-assetc/assets/css/scrollspyNav.css" rel="stylesheet') }}" type="text/css" />
-<link href="{{ asset('admin_app-assetc/plugins/animate/animate.css" rel="stylesheet') }}" type="text/css" />
+<link href="{{ asset('admin_app-assetc/assets/css/scrollspyNav.css') }}" rel="stylesheet" type="text/css" />
+<link href="{{ asset('admin_app-assetc/plugins/animate/animate.css') }}" rel="stylesheet" type="text/css" />
 <script src="{{ asset('admin_app-assetc/plugins/sweetalerts/promise-polyfill.js') }}"></script>
 <link href="{{ asset('admin_app-assetc/plugins/sweetalerts/sweetalert2.min.css') }}" rel="stylesheet" type="text/css" />
 <link href="{{ asset('admin_app-assetc/plugins/sweetalerts/sweetalert.css') }}" rel="stylesheet" type="text/css" />
