@@ -10,8 +10,8 @@
 
                         <!-- Post Details -->
                         <div class="post-details">
-                            <a href="#" class="post-date"><span>Aug 06, 2018</span></a>
-                            <a href="#" class="post-views">15 views</a>
+                            <a href="#" class="post-date"><span>Aug 06, 2020</span></a>
+                            <a href="#" class="post-views">8,235 views</a>
                             <div class="post-share-icon">
                                 <span>SHARE</span>
                                 <ul>
@@ -26,7 +26,7 @@
                         <!-- End Post Details -->
                     </div>
                     <div class="post-media">
-                        <img src="images/contact.jpg" alt="Post">
+                        <img src="/images/contact.jpg" alt="Post">
                     </div>
                     <div class="post-content">
 
@@ -41,9 +41,9 @@
                             </p>
                             <h4>Contact Information</h4>
                             <p>
-                                <strong>- Tel:</strong> +123 456 789 <br/>
-                                <strong>- Email:</strong> name@domain.com <br/>
-                                <strong>- Address:</strong> 820 Utica Ave, Brooklyn, NY
+                                <strong>- Tel:</strong> +994 50 411 44 23 <br/>
+                                <strong>- Email:</strong> rustemov.tamerlan@gmail.com <br/>
+                                <strong>- Address:</strong> Baku, Azerbaijan
                                 <br/>
                             </p>
                             <form action="#" method="post" class="contact" style="margin-top: 10px;">
@@ -64,7 +64,7 @@
                                     <textarea name="comment"></textarea>
                                 </div>
                                 <div class="contact-item form-submit">
-                                    <input name="submit" type="submit" id="submit" class="submit" value="Submit">
+                                    <input name="submit" type="submit" id="submit" class="submit" value="Send">
                                 </div>
                             </form>
                         </div>

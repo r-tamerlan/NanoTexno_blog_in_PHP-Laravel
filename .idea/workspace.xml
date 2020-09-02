@@ -19,70 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="23.08.2020&#10;create admin dashboard">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoriesController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Models/Admin/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/admin_app-assetc/img/camera.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/cropper.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/dropzone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/lfm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/css/mime-icons.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/adobe.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/folder-1/sleeping-dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/files/word.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/.gitkeep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/sleeping-dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/images/test-folder/thumbs/sleeping-dog.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/152px color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/72px color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/92px color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/Logomark color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/folder.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/img/loader.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/cropper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/dropzone.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/vendor/laravel-filemanager/js/stand-alone-button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/admins/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/admins/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/links.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/scripts.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/sidebar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/postinfo.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/form.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/search.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nanotexno_blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nanotexno_blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="8f2df8cc-ac3c-412b-b5e3-3849871c1e44" name="Default Changelist" comment="30.08.2020&#10;finising....&#10;And starting test">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/switalert.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/AdminController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomepageController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_08_22_071023_create_admin_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_08_22_071023_create_admin_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/about.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/about.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/contact.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/admins/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/admins/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/master.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/categories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/categories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/partials/links.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/links.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/partials/scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/partials/scripts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/postinfo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/postinfo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/form.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/homepage.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/homepage.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/navbar.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/scripts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/partials/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/registr.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/registr.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/signin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/signin.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,17 +185,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Laravel\nanotexno_blog\storage\app\public\posts" />
+      <recent name="C:\Laravel\nanotexno_blog\public\admin_app-assetc" />
+      <recent name="C:\Laravel\nanotexno_blog\app\Models" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Laravel\nanotexno_blog\resources\views" />
       <recent name="C:\Laravel\nanotexno_blog\resources\views\admin\admins" />
       <recent name="C:\Laravel\nanotexno_blog\public\admin_app-assetc\img" />
       <recent name="C:\Laravel\nanotexno_blog\resources\views\admin\users" />
       <recent name="C:\Laravel\nanotexno_blog\resources\views\admin\posts" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Laravel\nanotexno_blog\storage\app\public\posts" />
-      <recent name="C:\Laravel\nanotexno_blog\public\admin_app-assetc" />
-      <recent name="C:\Laravel\nanotexno_blog\app\Models" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.phpunit.xml">
@@ -278,7 +237,9 @@
       <workItem from="1598377657004" duration="21554000" />
       <workItem from="1598623611535" duration="32864000" />
       <workItem from="1598721271851" duration="145000" />
-      <workItem from="1598729860693" duration="11427000" />
+      <workItem from="1598729860693" duration="11822000" />
+      <workItem from="1598896819033" duration="2950000" />
+      <workItem from="1598942963101" duration="10460000" />
     </task>
     <task id="LOCAL-00001" summary="Baslangic">
       <created>1597911837598</created>
@@ -322,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598214511819</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="30.08.2020&#10;finising....&#10;And starting test">
+      <created>1598777008974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1598777008974</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,7 +316,8 @@
     <MESSAGE value="Bakcend Start with Database 2" />
     <MESSAGE value="23.08.2020" />
     <MESSAGE value="23.08.2020&#10;create admin dashboard" />
-    <option name="LAST_COMMIT_MESSAGE" value="23.08.2020&#10;create admin dashboard" />
+    <MESSAGE value="30.08.2020&#10;finising....&#10;And starting test" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.08.2020&#10;finising....&#10;And starting test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="493" y="243" key="#Composer" timestamp="1597911296204">
@@ -417,10 +386,10 @@
       <screen x="1366" y="-82" width="1280" height="984" />
     </state>
     <state x="1586" y="153" key="IDE.errors.dialog/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598104812412" />
-    <state x="531" y="230" key="NewPhpFileDialog" timestamp="1598707611019">
+    <state x="531" y="230" key="NewPhpFileDialog" timestamp="1598983552821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="531" y="230" key="NewPhpFileDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598707611019" />
+    <state x="531" y="230" key="NewPhpFileDialog/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598983552821" />
     <state x="1864" y="229" key="NewPhpFileDialog/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598170230494" />
     <state x="480" y="84" key="RollbackChangesDialog" timestamp="1598291935200">
       <screen x="0" y="0" width="1366" height="728" />
@@ -430,10 +399,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="173" y="15" key="SettingsEditor/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1597999379012" />
-    <state x="270" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598214522485">
+    <state x="270" y="100" key="Vcs.Push.Dialog.v2" timestamp="1598777019004">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="270" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598214522485" />
+    <state x="270" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@0.0.1366.728" timestamp="1598777019004" />
     <state x="1619" y="53" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.-82.1280.984@1366.-82.1280.984" timestamp="1598162964969" />
     <state x="1802" y="220" width="408" height="376" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1598090996566">
       <screen x="1366" y="-82" width="1280" height="984" />
@@ -460,6 +429,11 @@
           <url>file://$PROJECT_DIR$/resources/views/admin/login.blade.php</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/admin/categories/index.blade.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

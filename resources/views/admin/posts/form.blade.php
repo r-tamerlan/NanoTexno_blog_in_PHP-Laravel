@@ -1,5 +1,5 @@
 @extends('admin.layouts.master')
-@section('title','Categories')
+@section('title','Post')
 @section('content')
     <div  id="content" class="main-content">
         <div class="container" style="max-width: 100% !important;">

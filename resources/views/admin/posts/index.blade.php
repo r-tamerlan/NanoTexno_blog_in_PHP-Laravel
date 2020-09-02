@@ -1,5 +1,5 @@
 @extends('admin.layouts.master')
-@section('title','Categories')
+@section('title','Posts')
 @section('content')
     <div id="content" class="main-content">
         <div class="container" style="max-width: 100% !important;">
@@ -49,7 +49,7 @@
                                                                                 </svg>
                                                                             </button>
                                                                         </div>
-                                                                        <div class="col-md-6">
+                                                                        <div class="col-md-6 ">
                                                                             <a href="{{ route('admin.posts.index') }}" class="btn btn-dark btn-sm">
                                                                                 <svg xmlns="http://www.w3.org/2000/svg"
                                                                                      width="24"
@@ -59,7 +59,7 @@
                                                                                      stroke-width="2"
                                                                                      stroke-linecap="round"
                                                                                      stroke-linejoin="round"
-                                                                                     class="feather feather-corner-down-left">
+                                                                                     class="feather feather-corner-down-left ">
                                                                                     <polyline
                                                                                         points="9 10 4 15 9 20"></polyline>
                                                                                     <path
@@ -102,27 +102,28 @@
                                     <thead>
                                     <tr>
                                         <th class="text-center">#ID</th>
-                                        <th>Post image</th>
-                                        <th>Post Category</th>
-                                        <th>Post title</th>
-                                        <th>Post content</th>
-                                        <th>Post create</th>
+                                        <th class="text-center">Post image</th>
+                                        <th class="text-center">Post Category</th>
+                                        <th class="text-center">Post title</th>
+                                        <th class="text-center">Post content</th>
+                                        <th class="text-center">Post create</th>
+                                        <th class="text-center">Action</th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     @foreach($postsList as $postList)
                                         <tr>
                                             <td class="text-center">{{$postList->id}}</td>
-                                            <td><img style="height: 60px; width: 60px" src="{{asset('storage/'.$postList->post_images)}}" alt=""></td>
+                                            <td><img class="rounded" style="height: 60px; width: 60px" src="{{asset('storage/'.$postList->post_images)}}" alt=""></td>
                                             <td>{{$postList->category->category_name }}</td>
-                                            <td>{{$postList->post_title}}</td>
-                                            <td><div style="height: 80px; width: 200px">{!! $postList->post_content !!}</div></td>
-                                            <td>{{$postList->created_at}}</td>
-                                            <td>
-                                                <a href="{{ route('admin.posts.edit',$postList->id) }}"
-                                                   class="btn btn-dark btn-sm">Edit</a>
+                                            <td class="text-justify overflow-hidden">{{$postList->post_title}}</td>
+                                            <td><div class="text-justify overflow-hidden" style="height: 78px; width: 200px">{!! $postList->post_content !!}</div></td>
+                                            <td class="text-center">{{$postList->created_at}}</td>
+                                            <td class="text-center" >
+                                                <a style="width: 80px" href="{{ route('admin.posts.edit',$postList->id) }}"
+                                                   class="btn btn-dark btn-sm mt-1">Edit</a>
                                                 <a href="{{ route('admin.posts.delete',$postList->id) }}"
-                                                   class="btn btn-danger btn-sm"
+                                                   class="btn btn-danger btn-sm mt-1"
                                                    onclick="return confirm('Are you sure?')">Delete</a>
                                             </td>
                                         </tr>

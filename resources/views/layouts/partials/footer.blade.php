@@ -15,9 +15,7 @@
                             <div class="col-sm-4">
                                 <div class="widget">
                                     <h2 class="title"><span>About Me</span></h2>
-                                    <p>
-                                        I am NanoTexno a Graphic Designer based in New York, specializing in User Interface Design and Development.
-                                    </p>
+                                    <p>NanoTexno is a neutral technology news portal and produces its contents with its own writers. </p>
                                 </div>
                             </div>
                             <div class="col-sm-4">
@@ -41,10 +39,10 @@
                                     <h2 class="title"><span>Web Links</span></h2>
                                     <ul>
 
-                                        <li><a href="#">Tips & tricks</a></li>
-                                        <li><a href="#">Examples</a></li>
-                                        <li><a href="#">Documentation</a></li>
-                                        <li><a href="#">Support</a></li>
+                                        <li><a href="{{ route('about') }}">Tips & tricks</a></li>
+                                        <li><a href="{{ route('about') }}">Examples</a></li>
+                                        <li><a href="{{ route('about') }}">Documentation</a></li>
+                                        <li><a href="{{ route('contact') }}">Support</a></li>
                                     </ul>
                                 </div>
                             </div>

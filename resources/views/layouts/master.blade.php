@@ -2,6 +2,7 @@
 <html lang="{{ config('app.locale') }}">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Status_iucn_NT_icon.svg/1200px-Status_iucn_NT_icon.svg.png">
     <title>@yield('title',config('app.name'))</title>
     @include('layouts.partials.header')
     @yield('head') <!-- *** -->

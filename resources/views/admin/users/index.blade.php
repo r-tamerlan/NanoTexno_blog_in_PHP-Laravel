@@ -1,5 +1,5 @@
 @extends('admin.layouts.master')
-@section('title','Categories')
+@section('title','Users')
 @section('content')
     <div id="content" class="main-content">
         <div class="container" style="max-width: 100% !important;">
@@ -10,7 +10,7 @@
                             <div class="row">
                                 <div class="col-xl-12 col-md-12 col-sm-12 col-12">
                                     @include('layouts.partials.alert')
-                                    <h4>Posts</h4>
+                                    <h4>Users</h4>
                                     {{--                       Seach and Add  -----------------------------------------------}}
                                     <div class="well ">
                                         <div class="text-right ">

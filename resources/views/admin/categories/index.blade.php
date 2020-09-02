@@ -1,6 +1,7 @@
 @extends('admin.layouts.master')
 @section('title','Categories')
 @section('content')
+{{--    @include('admin.layouts.partials.switalert')--}}
     <div id="content" class="main-content">
         <div class="container" style="max-width: 100% !important;">
             <div class="row w-100 layout-top-spacing">
@@ -117,10 +118,11 @@
                                             <td>{{$categoryList->category_slug}}</td>
                                             <td>{{$categoryList->created_at}}</td>
                                             <td>
-                                                <a href="{{ route('admin.categories.edit',$categoryList->id) }}"
+                                                <a style="width: 80px" href="{{ route('admin.categories.edit',$categoryList->id) }}"
                                                    class="btn btn-dark btn-sm">Edit</a>
+                                                <button class="mr-2 btn btn-primary  warning confirm">Confirm</button>
                                                 <a href="{{ route('admin.categories.delete',$categoryList->id) }}"
-                                                   class="btn btn-danger btn-sm"
+                                                   class="btn btn-danger btn-sm warning confirm"
                                                    onclick="return confirm('Are you sure?')">Delete</a>
                                             </td>
                                         </tr>

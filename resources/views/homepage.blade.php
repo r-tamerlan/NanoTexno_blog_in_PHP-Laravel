@@ -11,12 +11,12 @@
                 <article class="post">
                     <div class="post-media" style="background-image: url({{asset('storage/'.$homePost->post_images)}}); width: 240px; height: 200px">
                         <a href="{{ route('post',$homePost->post_slug) }}">
-                            <img src="{{asset('storage/'.$homePost->post_images)}}" alt="Post">
+                            <img class="rounded" src="{{asset('storage/'.$homePost->post_images)}}" alt="Post">
                         </a>
                     </div>
                     <div class="post-content">
                         <div class="post-header">
-                            <h2 class="title">
+                            <h2 class="title ">
                                 <a href="{{ route('post',$homePost->post_slug) }}">{{$homePost->post_title}}</a>
                             </h2>
 
@@ -43,8 +43,8 @@
                             <!-- End Post Details -->
                         </div>
                         <!-- The Content -->
-                        <div class="the-excerpt">
-                            <p>{!! $homePost->post_content !!}
+                        <div >
+                            <p  >{!! $homePost->post_content !!}
                             </p>
                         </div>
                         <!-- End The Content -->

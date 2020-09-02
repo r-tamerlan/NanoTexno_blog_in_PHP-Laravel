@@ -10,8 +10,8 @@
 
                         <!-- Post Details -->
                         <div class="post-details">
-                            <a href="#" class="post-date"><span>Aug 06, 2018</span></a>
-                            <a href="#" class="post-views">15 views</a>
+                            <a href="#" class="post-date"><span>Aug 07, 2020</span></a>
+                            <a href="#" class="post-views">9,286 views</a>
                             <div class="post-share-icon">
                                 <span>SHARE</span>
                                 <ul>
@@ -40,9 +40,7 @@
                             <p>
                                 Suspendisse eleifend nulla ac rhoncus egestas. Sed vehicula ipsum vitae finibus condimentum. Phasellus rhoncus, nulla et sodales sodales, massa nisl volutpat odio, ac sodales risus metus sollicitudin odio.
                             </p>
-                            <p style="text-align: right; margin-top: 40px;">
-                                <img src="images/sign.png" alt="Sign" style="max-height: 30px; margin-right: 40px;">
-                            </p>
+
                         </div>
                         <!-- End The Content -->
                     </div>

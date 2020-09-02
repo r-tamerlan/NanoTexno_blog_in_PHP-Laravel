@@ -65,8 +65,10 @@
         <ul class="navbar-nav flex-row ml-auto ">
             <li class="nav-item more-dropdown">
                 <div class="dropdown  custom-dropdown-icon">
-                    <a href="http://localhost/x-Blog/login/index.php" class="btn btn-danger">Hesabdan çıx</a>
-                    <a href="http://localhost/x-Blog/login/index.php?get=delete" class="btn btn-dark">Hesabı bağla</a>
+                    <a href="#" class="btn btn-danger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-power"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
+                        Hesabdan çıx</a>
+
                 </div>
             </li>
         </ul>

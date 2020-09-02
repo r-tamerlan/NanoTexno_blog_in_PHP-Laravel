@@ -27,7 +27,7 @@
                                         <th>Like</th>
                                         <th>Comment</th>
                                         <th>Updated</th>
-                                        <th>Action</th>
+                                        <th class="text-center" >Action</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -38,8 +38,8 @@
                                             <td>{{$info->like}}</td>
                                             <td>{{$info->comment}}</td>
                                             <td>{{$info->updated_at}}</td>
-                                            <td>
-                                                <a href="{{ route('admin.info.edit',$info->id) }}"
+                                            <td class="text-center">
+                                                <a style="width: 80px" href="{{ route('admin.info.edit',$info->id) }}"
                                                    class="btn btn-dark btn-sm">Edit</a>
                                                 <a href="{{ route('admin.info.delete',$info->id) }}"
                                                    class="btn btn-danger btn-sm"

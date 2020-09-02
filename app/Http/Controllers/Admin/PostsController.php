@@ -72,7 +72,7 @@ class PostsController extends Controller
             if ($postImg->isValid()) {
                 //$postImg->move('upload/posts', $fileName);
 //                Storage::put('posts', $postImg);
-                $data['post_images'] = Storage::put('public/posts', $postImg);
+                $data['post_images'] = basename(Storage::put('public/posts', $postImg));
             }
 
         }
